@@ -1,0 +1,17 @@
+D:\SanCRM\backend\SanCRM.Infrastructure\obj\Debug\net8.0\SanCRM.Infrastructure.csproj.AssemblyReference.cache
+D:\SanCRM\backend\SanCRM.Infrastructure\obj\Debug\net8.0\SanCRM.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\SanCRM\backend\SanCRM.Infrastructure\obj\Debug\net8.0\SanCRM.Infrastructure.AssemblyInfoInputs.cache
+D:\SanCRM\backend\SanCRM.Infrastructure\obj\Debug\net8.0\SanCRM.Infrastructure.AssemblyInfo.cs
+D:\SanCRM\backend\SanCRM.Infrastructure\obj\Debug\net8.0\SanCRM.Infrastructure.csproj.CoreCompileInputs.cache
+D:\SanCRM\backend\SanCRM.Infrastructure\bin\Debug\net8.0\SanCRM.Infrastructure.deps.json
+D:\SanCRM\backend\SanCRM.Infrastructure\bin\Debug\net8.0\SanCRM.Infrastructure.runtimeconfig.json
+D:\SanCRM\backend\SanCRM.Infrastructure\bin\Debug\net8.0\SanCRM.Infrastructure.dll
+D:\SanCRM\backend\SanCRM.Infrastructure\bin\Debug\net8.0\SanCRM.Infrastructure.pdb
+D:\SanCRM\backend\SanCRM.Infrastructure\bin\Debug\net8.0\SanCRM.Domain.dll
+D:\SanCRM\backend\SanCRM.Infrastructure\bin\Debug\net8.0\SanCRM.Domain.pdb
+D:\SanCRM\backend\SanCRM.Infrastructure\obj\Debug\net8.0\SanCRM.I.5A46A756.Up2Date
+D:\SanCRM\backend\SanCRM.Infrastructure\obj\Debug\net8.0\SanCRM.Infrastructure.dll
+D:\SanCRM\backend\SanCRM.Infrastructure\obj\Debug\net8.0\refint\SanCRM.Infrastructure.dll
+D:\SanCRM\backend\SanCRM.Infrastructure\obj\Debug\net8.0\SanCRM.Infrastructure.pdb
+D:\SanCRM\backend\SanCRM.Infrastructure\obj\Debug\net8.0\SanCRM.Infrastructure.genruntimeconfig.cache
+D:\SanCRM\backend\SanCRM.Infrastructure\obj\Debug\net8.0\ref\SanCRM.Infrastructure.dll

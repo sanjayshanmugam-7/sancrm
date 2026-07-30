@@ -1,0 +1,551 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SanCRM.API</name>
+    </assembly>
+    <members>
+        <member name="T:SanCRM.API.Controllers.AccountsController">
+            <summary>
+            Account / Company Management — companies, branches, GST, credit limits
+            </summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.AccountsController.GetAll(SanCRM.Application.Common.AccountQueryParams)">
+            <summary>Get paginated accounts list</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.AccountsController.GetStats">
+            <summary>Get account stats</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.AccountsController.GetHierarchy">
+            <summary>Get full company hierarchy</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.AccountsController.GetCategories">
+            <summary>Get customer categories</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.AccountsController.ValidateGst(SanCRM.Application.DTOs.ValidateGstDto)">
+            <summary>Validate GST number</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.AccountsController.Export(SanCRM.Application.Common.AccountQueryParams)">
+            <summary>Export accounts to CSV</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.AccountsController.GetById(System.Int32)">
+            <summary>Get single account</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.AccountsController.Create(SanCRM.Application.DTOs.CreateAccountDto)">
+            <summary>Create account</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.AccountsController.Update(System.Int32,SanCRM.Application.DTOs.UpdateAccountDto)">
+            <summary>Update account</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.AccountsController.Delete(System.Int32)">
+            <summary>Delete account</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.AccountsController.GetBranches(System.Int32)">
+            <summary>Get branches of an account</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.AccountsController.CreateBranch(System.Int32,SanCRM.Application.DTOs.CreateBranchDto)">
+            <summary>Create branch under account</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.AccountsController.GetContacts(System.Int32)">
+            <summary>Get contacts of an account</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.AccountsController.GetOpportunities(System.Int32)">
+            <summary>Get opportunities of an account</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.AccountsController.GetDocuments(System.Int32)">
+            <summary>Get documents of an account</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.AccountsController.GetActivities(System.Int32)">
+            <summary>Get activities of an account</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.AccountsController.GetNotes(System.Int32)">
+            <summary>Get notes of an account</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.AccountsController.AddNote(System.Int32,SanCRM.Application.DTOs.CreateNoteDto)">
+            <summary>Add note to account</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.AccountsController.UpdateCreditLimit(System.Int32,SanCRM.Application.DTOs.UpdateCreditLimitDto)">
+            <summary>Update credit limit for account</summary>
+        </member>
+        <member name="T:SanCRM.API.Controllers.ActivitiesController">
+            <summary>
+            Activity Management — calls, meetings, emails, follow-ups, calendar
+            </summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.ActivitiesController.GetAll(SanCRM.Application.Common.ActivityQueryParams)">
+            <summary>Get all activities with filters</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.ActivitiesController.GetStats">
+            <summary>Get activity stats</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.ActivitiesController.GetCalls(SanCRM.Application.Common.ActivityQueryParams)">
+            <summary>Get calls list</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.ActivitiesController.GetMeetings(SanCRM.Application.Common.ActivityQueryParams)">
+            <summary>Get meetings list</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.ActivitiesController.GetEmails(SanCRM.Application.Common.ActivityQueryParams)">
+            <summary>Get email logs list</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.ActivitiesController.GetFollowUps(SanCRM.Application.Common.ActivityQueryParams)">
+            <summary>Get follow-ups list</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.ActivitiesController.GetPendingReminders">
+            <summary>Get pending reminders</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.ActivitiesController.GetCalendar(System.Nullable{System.DateTime},System.Nullable{System.DateTime})">
+            <summary>Get calendar events for a date range</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.ActivitiesController.SendEmail(SanCRM.Application.DTOs.SendEmailDto)">
+            <summary>Send email and log it</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.ActivitiesController.LogCall(SanCRM.Application.DTOs.LogCallDto)">
+            <summary>Log a call manually</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.ActivitiesController.GetById(System.Int32)">
+            <summary>Get single activity</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.ActivitiesController.Create(SanCRM.Application.DTOs.CreateActivityDto)">
+            <summary>Create activity</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.ActivitiesController.Update(System.Int32,SanCRM.Application.DTOs.UpdateActivityDto)">
+            <summary>Update activity</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.ActivitiesController.Delete(System.Int32)">
+            <summary>Delete activity</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.ActivitiesController.Complete(System.Int32,SanCRM.Application.DTOs.CompleteActivityDto)">
+            <summary>Mark activity as completed</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.ActivitiesController.Reschedule(System.Int32,SanCRM.Application.DTOs.RescheduleDto)">
+            <summary>Reschedule an activity</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.ActivitiesController.SetReminder(System.Int32,SanCRM.Application.DTOs.SetReminderDto)">
+            <summary>Set reminder for activity</summary>
+        </member>
+        <member name="T:SanCRM.API.Controllers.AuthController">
+            <summary>
+            Authentication and User Management
+            </summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.AuthController.Login(SanCRM.Application.DTOs.LoginRequest)">
+            <summary>
+            Login with email and password
+            </summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.AuthController.Register(SanCRM.Application.DTOs.RegisterRequest)">
+            <summary>
+            Register new user
+            </summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.AuthController.GetCurrentUser">
+            <summary>
+            Get current user profile
+            </summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.AuthController.ChangePassword(SanCRM.Application.DTOs.ChangePasswordRequest)">
+            <summary>
+            Change password
+            </summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.AuthController.Logout">
+            <summary>
+            Logout (placeholder for client-side token removal)
+            </summary>
+        </member>
+        <member name="T:SanCRM.API.Controllers.CampaignsController">
+            <summary>
+            Campaign Management — email, SMS, WhatsApp, social, push notifications
+            </summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.CampaignsController.GetAll(SanCRM.Application.Common.CampaignQueryParams)">
+            <summary>Get paginated campaigns list</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.CampaignsController.GetOverallStats">
+            <summary>Get overall campaign stats</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.CampaignsController.GetTemplates(System.String)">
+            <summary>Get campaign templates by type</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.CampaignsController.CreateTemplate(SanCRM.Application.DTOs.CampaignTemplateDto)">
+            <summary>Create campaign template</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.CampaignsController.SendTestEmail(SanCRM.Application.DTOs.TestEmailDto)">
+            <summary>Send test email</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.CampaignsController.SendTestSms(SanCRM.Application.DTOs.TestSmsDto)">
+            <summary>Send test SMS</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.CampaignsController.GetById(System.Int32)">
+            <summary>Get single campaign</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.CampaignsController.Create(SanCRM.Application.DTOs.CreateCampaignDto)">
+            <summary>Create campaign</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.CampaignsController.Update(System.Int32,SanCRM.Application.DTOs.UpdateCampaignDto)">
+            <summary>Update campaign</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.CampaignsController.Delete(System.Int32)">
+            <summary>Delete campaign</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.CampaignsController.Launch(System.Int32)">
+            <summary>Launch campaign</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.CampaignsController.Pause(System.Int32)">
+            <summary>Pause active campaign</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.CampaignsController.Resume(System.Int32)">
+            <summary>Resume paused campaign</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.CampaignsController.Stop(System.Int32)">
+            <summary>Stop / cancel campaign</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.CampaignsController.Duplicate(System.Int32)">
+            <summary>Duplicate a campaign</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.CampaignsController.GetStats(System.Int32)">
+            <summary>Get campaign-specific stats</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.CampaignsController.GetRecipients(System.Int32,SanCRM.Application.Common.QueryParams)">
+            <summary>Get campaign recipients with pagination</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.CampaignsController.AddRecipients(System.Int32,SanCRM.Application.DTOs.AddRecipientsDto)">
+            <summary>Add recipients to campaign</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.CampaignsController.GetEmailMetrics(System.Int32)">
+            <summary>Get email open/click metrics</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.CampaignsController.GetSmsMetrics(System.Int32)">
+            <summary>Get SMS delivery metrics</summary>
+        </member>
+        <member name="T:SanCRM.API.Controllers.CommunicationController">
+            <summary>
+            Communication — notes, attachments, history, relationship mapping
+            </summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.CommunicationController.GetHistory(System.String,System.Nullable{System.Int32},System.String,System.Int32,System.Int32)">
+            <summary>Get all communication history (last 30 days, paginated)</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.CommunicationController.GetHistoryStats">
+            <summary>Get channel breakdown stats (last 30 days)</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.CommunicationController.GetNotes(System.String,System.Nullable{System.Int32},System.String,System.Int32,System.Int32)">
+            <summary>Get notes with optional entity filter</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.CommunicationController.CreateNote(System.String,System.Int32,SanCRM.Application.DTOs.CreateNoteDto)">
+            <summary>Create a note</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.CommunicationController.UpdateNote(System.Int32,SanCRM.Application.DTOs.CreateNoteDto)">
+            <summary>Update a note</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.CommunicationController.DeleteNote(System.Int32)">
+            <summary>Delete a note</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.CommunicationController.GetAttachments(System.String,System.Nullable{System.Int32},System.Int32,System.Int32)">
+            <summary>Get attachments with optional entity filter</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.CommunicationController.DownloadAttachment(System.Int32)">
+            <summary>Download attachment by ID</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.CommunicationController.DeleteAttachment(System.Int32)">
+            <summary>Delete attachment</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.CommunicationController.GetRelationships(System.String,System.Nullable{System.Int32})">
+            <summary>Get all active relationships</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.CommunicationController.CreateRelationship(SanCRM.Application.DTOs.CreateRelationshipDto)">
+            <summary>Create a relationship</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.CommunicationController.DeleteRelationship(System.Int32)">
+            <summary>Delete (deactivate) a relationship</summary>
+        </member>
+        <member name="T:SanCRM.API.Controllers.ContactsController">
+            <summary>
+            Contact Management — individuals and business contacts
+            </summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.ContactsController.GetAll(SanCRM.Application.Common.ContactQueryParams)">
+            <summary>Get paginated contacts list</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.ContactsController.GetStats">
+            <summary>Get contact stats</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.ContactsController.GetGroups">
+            <summary>Get all customer groups</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.ContactsController.CreateGroup(SanCRM.Application.DTOs.CustomerGroupDto)">
+            <summary>Create customer group</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.ContactsController.GetGroupById(System.Int32)">
+            <summary>Get group by ID</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.ContactsController.UpdateGroup(System.Int32,SanCRM.Application.DTOs.CustomerGroupDto)">
+            <summary>Update customer group</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.ContactsController.DeleteGroup(System.Int32)">
+            <summary>Delete customer group</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.ContactsController.AddToGroup(System.Int32,SanCRM.API.Controllers.AddToGroupRequest)">
+            <summary>Add contacts to group</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.ContactsController.RemoveFromGroup(System.Int32,System.Int32)">
+            <summary>Remove contact from group</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.ContactsController.BulkDelete(SanCRM.API.Controllers.BulkDeleteContactRequest)">
+            <summary>Bulk delete contacts</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.ContactsController.Import(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>Import contacts from CSV</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.ContactsController.Export(SanCRM.Application.Common.ContactQueryParams)">
+            <summary>Export contacts to CSV</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.ContactsController.GetById(System.Int32)">
+            <summary>Get single contact</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.ContactsController.Create(SanCRM.Application.DTOs.CreateContactDto)">
+            <summary>Create contact</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.ContactsController.Update(System.Int32,SanCRM.Application.DTOs.UpdateContactDto)">
+            <summary>Update contact</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.ContactsController.Delete(System.Int32)">
+            <summary>Delete contact</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.ContactsController.GetActivities(System.Int32)">
+            <summary>Get activities for contact</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.ContactsController.GetNotes(System.Int32)">
+            <summary>Get notes for contact</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.ContactsController.AddNote(System.Int32,SanCRM.Application.DTOs.CreateNoteDto)">
+            <summary>Add note to contact</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.ContactsController.GetAttachments(System.Int32)">
+            <summary>Get attachments for contact</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.ContactsController.AddAttachment(System.Int32,Microsoft.AspNetCore.Http.IFormFile,System.String)">
+            <summary>Upload attachment to contact</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.ContactsController.GetCommunicationHistory(System.Int32)">
+            <summary>Get communication history for contact</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.ContactsController.GetRelationships(System.Int32)">
+            <summary>Get relationship map for contact</summary>
+        </member>
+        <member name="T:SanCRM.API.Controllers.DashboardController">
+            <summary>
+            Dashboard — KPI stats, revenue trends, pipeline summary, activity counts
+            </summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.DashboardController.GetStats">
+            <summary>Get all dashboard KPI numbers</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.DashboardController.GetRevenueTrend">
+            <summary>Get monthly revenue trend for last 12 months</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.DashboardController.GetLeadSources">
+            <summary>Get lead source performance for last 90 days</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.DashboardController.GetPipelineSummary">
+            <summary>Get pipeline summary by stage</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.DashboardController.GetRecentActivities">
+            <summary>Get today's activity counts</summary>
+        </member>
+        <member name="T:SanCRM.API.Controllers.DocumentsController">
+            <summary>
+            Document Management — proposals, quotations, agreements, OCR, digital signatures
+            </summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.DocumentsController.GetAll(SanCRM.Application.Common.DocumentQueryParams)">
+            <summary>Get paginated documents list</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.DocumentsController.GetStats">
+            <summary>Get document stats</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.DocumentsController.GetTemplates(System.String)">
+            <summary>Get document templates by type</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.DocumentsController.CreateTemplate(SanCRM.Application.DTOs.DocumentTemplateDto)">
+            <summary>Create document template</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.DocumentsController.Upload(Microsoft.AspNetCore.Http.IFormFile,System.String,System.Nullable{System.Int32})">
+            <summary>Upload document file</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.DocumentsController.ProcessOcr(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>Process OCR on uploaded document</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.DocumentsController.GetById(System.Int32)">
+            <summary>Get single document</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.DocumentsController.Create(SanCRM.Application.DTOs.CreateDocumentDto)">
+            <summary>Create document (proposal/quotation/agreement)</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.DocumentsController.Update(System.Int32,SanCRM.Application.DTOs.UpdateDocumentDto)">
+            <summary>Update document</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.DocumentsController.Delete(System.Int32)">
+            <summary>Delete document</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.DocumentsController.Download(System.Int32)">
+            <summary>Download document file</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.DocumentsController.GeneratePdf(System.Int32)">
+            <summary>Generate PDF for document</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.DocumentsController.SendForSignature(System.Int32,SanCRM.Application.DTOs.SendSignatureDto)">
+            <summary>Send document for e-signature</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.DocumentsController.GetSignatureStatus(System.Int32)">
+            <summary>Get signature status for document</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.DocumentsController.Share(System.Int32,SanCRM.Application.DTOs.ShareDocumentDto)">
+            <summary>Share document with recipients via email</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.DocumentsController.GetVersions(System.Int32)">
+            <summary>Get version history for document</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.DocumentsController.CreateVersion(System.Int32,Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>Upload new version of document</summary>
+        </member>
+        <member name="T:SanCRM.API.Controllers.LeadsController">
+            <summary>
+            Lead Management — capture, qualify, assign, convert
+            </summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.LeadsController.GetAll(SanCRM.Application.Common.LeadQueryParams)">
+            <summary>Get paginated leads list with filters</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.LeadsController.GetStats">
+            <summary>Get lead stats</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.LeadsController.GetSourceBreakdown">
+            <summary>Get lead source breakdown</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.LeadsController.DetectDuplicates">
+            <summary>Detect duplicate leads by email and phone</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.LeadsController.GetAssignmentRules">
+            <summary>Get lead assignment rules</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.LeadsController.CreateAssignmentRule(SanCRM.Application.DTOs.AssignmentRuleDto)">
+            <summary>Create assignment rule</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.LeadsController.UpdateAssignmentRule(System.Int32,SanCRM.Application.DTOs.AssignmentRuleDto)">
+            <summary>Update assignment rule</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.LeadsController.DeleteAssignmentRule(System.Int32)">
+            <summary>Delete assignment rule</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.LeadsController.BulkDelete(SanCRM.API.Controllers.BulkDeleteRequest)">
+            <summary>Bulk delete leads</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.LeadsController.BulkAssign(SanCRM.Application.DTOs.BulkAssignDto)">
+            <summary>Bulk assign leads to user</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.LeadsController.BulkImport(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>Import leads from CSV file</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.LeadsController.Export(SanCRM.Application.Common.LeadQueryParams)">
+            <summary>Export leads to CSV</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.LeadsController.GetById(System.Int32)">
+            <summary>Get single lead by ID</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.LeadsController.Create(SanCRM.Application.DTOs.CreateLeadDto)">
+            <summary>Create new lead</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.LeadsController.Update(System.Int32,SanCRM.Application.DTOs.UpdateLeadDto)">
+            <summary>Update lead</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.LeadsController.Delete(System.Int32)">
+            <summary>Delete lead</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.LeadsController.Merge(System.Int32,SanCRM.API.Controllers.MergeRequest)">
+            <summary>Merge duplicate lead into primary</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.LeadsController.Convert(System.Int32,SanCRM.Application.DTOs.LeadConvertDto)">
+            <summary>Convert lead to contact / company / opportunity</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.LeadsController.GetNotes(System.Int32)">
+            <summary>Get notes for a lead</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.LeadsController.AddNote(System.Int32,SanCRM.Application.DTOs.CreateNoteDto)">
+            <summary>Add note to lead</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.LeadsController.GetAttachments(System.Int32)">
+            <summary>Get attachments for a lead</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.LeadsController.AddAttachment(System.Int32,Microsoft.AspNetCore.Http.IFormFile,System.String)">
+            <summary>Upload attachment to lead</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.LeadsController.GetActivities(System.Int32)">
+            <summary>Get activities for a lead</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.LeadsController.GetCommunicationHistory(System.Int32)">
+            <summary>Get communication history for a lead</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.LeadsController.UpdateScore(System.Int32)">
+            <summary>Trigger AI score recalculation for a lead</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.LeadsController.SetReminder(System.Int32,SanCRM.Application.DTOs.SetReminderDto)">
+            <summary>Set reminder for a lead (stored as FollowUp)</summary>
+        </member>
+        <member name="T:SanCRM.API.Controllers.OpportunitiesController">
+            <summary>
+            Opportunity / Deal Management — pipeline, stage tracking, forecasting
+            </summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.OpportunitiesController.GetAll(SanCRM.Application.Common.OpportunityQueryParams)">
+            <summary>Get paginated opportunities</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.OpportunitiesController.GetStats">
+            <summary>Get opportunity stats</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.OpportunitiesController.GetPipelineStats">
+            <summary>Get pipeline stage summary for Kanban board</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.OpportunitiesController.GetForecast(SanCRM.Application.Common.OpportunityQueryParams)">
+            <summary>Get revenue forecast</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.OpportunitiesController.Export(SanCRM.Application.Common.OpportunityQueryParams)">
+            <summary>Export opportunities to CSV</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.OpportunitiesController.GetById(System.Int32)">
+            <summary>Get single opportunity</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.OpportunitiesController.Create(SanCRM.Application.DTOs.CreateOpportunityDto)">
+            <summary>Create opportunity</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.OpportunitiesController.Update(System.Int32,SanCRM.Application.DTOs.UpdateOpportunityDto)">
+            <summary>Update opportunity</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.OpportunitiesController.Delete(System.Int32)">
+            <summary>Delete opportunity</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.OpportunitiesController.UpdateStage(System.Int32,SanCRM.Application.DTOs.UpdateStageDto)">
+            <summary>Move opportunity to a new pipeline stage</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.OpportunitiesController.GetActivities(System.Int32)">
+            <summary>Get activities for opportunity</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.OpportunitiesController.GetNotes(System.Int32)">
+            <summary>Get notes for opportunity</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.OpportunitiesController.AddNote(System.Int32,SanCRM.Application.DTOs.CreateNoteDto)">
+            <summary>Add note to opportunity</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.OpportunitiesController.GetDocuments(System.Int32)">
+            <summary>Get documents linked to opportunity</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.OpportunitiesController.GetTimeline(System.Int32)">
+            <summary>Get full activity timeline for opportunity</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.OpportunitiesController.GetStageHistory(System.Int32)">
+            <summary>Get stage change history for opportunity</summary>
+        </member>
+        <member name="M:SanCRM.API.Controllers.OpportunitiesController.GetAiPrediction(System.Int32)">
+            <summary>Get AI win probability prediction for opportunity</summary>
+        </member>
+    </members>
+</doc>

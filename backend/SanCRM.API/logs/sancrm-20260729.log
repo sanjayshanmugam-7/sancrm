@@ -1,0 +1,561 @@
+2026-07-29 15:46:39.889 +05:30 [INF] User profile is available. Using 'C:\Users\Dikshi05\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-29 15:46:40.148 +05:30 [INF] Now listening on: http://localhost:8000
+2026-07-29 15:46:40.152 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-29 15:46:40.153 +05:30 [INF] Hosting environment: Development
+2026-07-29 15:46:40.155 +05:30 [INF] Content root path: D:\SanCRM\backend\SanCRM.API
+2026-07-29 15:46:58.062 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8000/ - null null
+2026-07-29 15:46:58.277 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8000/ - 301 0 null 217.7899ms
+2026-07-29 15:46:58.297 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8000/index.html - null null
+2026-07-29 15:46:58.427 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8000/index.html - 200 null text/html;charset=utf-8 129.4746ms
+2026-07-29 15:46:58.475 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8000/swagger-ui-bundle.js - null null
+2026-07-29 15:46:58.475 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8000/swagger-ui-standalone-preset.js - null null
+2026-07-29 15:46:58.489 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8000/swagger-ui.css - null null
+2026-07-29 15:46:58.556 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2026-07-29 15:46:58.557 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2026-07-29 15:46:58.613 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2026-07-29 15:46:58.896 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8000/swagger-ui-bundle.js - 200 1061536 text/javascript 420.6414ms
+2026-07-29 15:46:58.897 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8000/swagger-ui-standalone-preset.js - 200 312163 text/javascript 421.9492ms
+2026-07-29 15:46:58.900 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8000/swagger-ui.css - 200 144929 text/css 411.0502ms
+2026-07-29 15:46:59.040 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8000/swagger/v1/swagger.json - null null
+2026-07-29 15:46:59.042 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8000/favicon-32x32.png - null null
+2026-07-29 15:46:59.057 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2026-07-29 15:46:59.074 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8000/favicon-32x32.png - 200 628 image/png 32.0307ms
+2026-07-29 15:46:59.867 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 827.2583ms
+2026-07-29 15:47:00.189 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8000/swagger-ui-standalone-preset.js - null null
+2026-07-29 15:47:00.192 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8000/swagger-ui-bundle.js - null null
+2026-07-29 15:47:00.199 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2026-07-29 15:47:00.227 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2026-07-29 15:47:00.234 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8000/swagger-ui-standalone-preset.js - 200 312163 text/javascript 44.8262ms
+2026-07-29 15:47:00.258 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8000/swagger-ui-bundle.js - 200 1061536 text/javascript 66.3199ms
+2026-07-29 16:46:43.121 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8000/api/v1/accounts? - null null
+2026-07-29 16:46:43.184 +05:30 [INF] CORS policy execution successful.
+2026-07-29 16:46:43.306 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-29 16:46:43.367 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-29 16:46:43.372 +05:30 [INF] HTTP GET /api/v1/accounts responded 401 in 212.6034 ms
+2026-07-29 16:46:43.376 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8000/api/v1/accounts? - 401 0 null 257.2167ms
+2026-07-29 16:46:43.475 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8000/api/v1/accounts? - null null
+2026-07-29 16:46:43.523 +05:30 [INF] CORS policy execution successful.
+2026-07-29 16:46:43.539 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-29 16:46:43.541 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-29 16:46:43.554 +05:30 [INF] HTTP GET /api/v1/accounts responded 401 in 32.1278 ms
+2026-07-29 16:46:43.572 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8000/api/v1/accounts? - 401 0 null 96.5904ms
+2026-07-29 16:50:20.499 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8000/api/v1/opportunities? - null null
+2026-07-29 16:50:20.537 +05:30 [INF] CORS policy execution successful.
+2026-07-29 16:50:20.541 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-29 16:50:20.552 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-29 16:50:20.553 +05:30 [INF] HTTP GET /api/v1/opportunities responded 401 in 17.1193 ms
+2026-07-29 16:50:20.555 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8000/api/v1/opportunities? - 401 0 null 55.5101ms
+2026-07-29 16:50:20.614 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8000/api/v1/opportunities? - null null
+2026-07-29 16:50:20.702 +05:30 [INF] CORS policy execution successful.
+2026-07-29 16:50:20.704 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-29 16:50:20.706 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-29 16:50:20.708 +05:30 [INF] HTTP GET /api/v1/opportunities responded 401 in 5.0898 ms
+2026-07-29 16:50:20.724 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8000/api/v1/opportunities? - 401 0 null 109.9831ms
+2026-07-29 16:50:30.473 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8000/api/v1/opportunities? - null null
+2026-07-29 16:50:30.500 +05:30 [INF] CORS policy execution successful.
+2026-07-29 16:50:30.512 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-29 16:50:30.514 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-29 16:50:30.516 +05:30 [INF] HTTP GET /api/v1/opportunities responded 401 in 15.8027 ms
+2026-07-29 16:50:30.529 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8000/api/v1/opportunities? - 401 0 null 55.9447ms
+2026-07-29 16:50:30.580 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8000/api/v1/opportunities? - null null
+2026-07-29 16:50:30.584 +05:30 [INF] CORS policy execution successful.
+2026-07-29 16:50:30.585 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-29 16:50:30.597 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-29 16:50:30.600 +05:30 [INF] HTTP GET /api/v1/opportunities responded 401 in 16.1249 ms
+2026-07-29 16:50:30.664 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8000/api/v1/opportunities? - 401 0 null 84.5844ms
+2026-07-29 16:50:42.272 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8000/api/v1/accounts? - null null
+2026-07-29 16:50:42.275 +05:30 [INF] CORS policy execution successful.
+2026-07-29 16:50:42.296 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-29 16:50:42.326 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-29 16:50:42.328 +05:30 [INF] HTTP GET /api/v1/accounts responded 401 in 52.6966 ms
+2026-07-29 16:50:42.330 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8000/api/v1/accounts? - 401 0 null 57.6689ms
+2026-07-29 16:50:42.390 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8000/api/v1/accounts? - null null
+2026-07-29 16:50:42.409 +05:30 [INF] CORS policy execution successful.
+2026-07-29 16:50:42.473 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-29 16:50:42.475 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-29 16:50:42.558 +05:30 [INF] HTTP GET /api/v1/accounts responded 401 in 149.2334 ms
+2026-07-29 16:50:42.564 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8000/api/v1/accounts? - 401 0 null 174.5081ms
+2026-07-29 16:53:24.615 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8000/api/v1/accounts? - null null
+2026-07-29 16:53:24.656 +05:30 [INF] CORS policy execution successful.
+2026-07-29 16:53:24.657 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-29 16:53:24.669 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-29 16:53:24.671 +05:30 [INF] HTTP GET /api/v1/accounts responded 401 in 14.8582 ms
+2026-07-29 16:53:24.673 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8000/api/v1/accounts? - 401 0 null 57.6358ms
+2026-07-29 16:53:24.736 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8000/api/v1/accounts? - null null
+2026-07-29 16:53:24.742 +05:30 [INF] CORS policy execution successful.
+2026-07-29 16:53:24.751 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-29 16:53:24.791 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-29 16:53:24.884 +05:30 [INF] HTTP GET /api/v1/accounts responded 401 in 141.6817 ms
+2026-07-29 16:53:24.910 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8000/api/v1/accounts? - 401 0 null 173.6237ms
+2026-07-29 16:53:31.453 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8000/api/v1/leads? - null null
+2026-07-29 16:53:31.512 +05:30 [INF] CORS policy execution successful.
+2026-07-29 16:53:31.513 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-29 16:53:31.514 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-29 16:53:31.515 +05:30 [INF] HTTP GET /api/v1/leads responded 401 in 3.0859 ms
+2026-07-29 16:53:31.516 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8000/api/v1/leads? - 401 0 null 62.7941ms
+2026-07-29 16:53:31.578 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8000/api/v1/leads? - null null
+2026-07-29 16:53:31.595 +05:30 [INF] CORS policy execution successful.
+2026-07-29 16:53:31.598 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-29 16:53:31.606 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-29 16:53:31.611 +05:30 [INF] HTTP GET /api/v1/leads responded 401 in 16.2183 ms
+2026-07-29 16:53:31.614 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8000/api/v1/leads? - 401 0 null 36.0021ms
+2026-07-29 16:54:43.547 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8000/api/v1/contacts? - null null
+2026-07-29 16:54:43.616 +05:30 [INF] CORS policy execution successful.
+2026-07-29 16:54:43.617 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-29 16:54:43.618 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-29 16:54:43.619 +05:30 [INF] HTTP GET /api/v1/contacts responded 401 in 3.2342 ms
+2026-07-29 16:54:43.630 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8000/api/v1/contacts? - 401 0 null 83.2754ms
+2026-07-29 16:54:43.677 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8000/api/v1/contacts? - null null
+2026-07-29 16:54:43.681 +05:30 [INF] CORS policy execution successful.
+2026-07-29 16:54:43.683 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-29 16:54:43.687 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-29 16:54:43.697 +05:30 [INF] HTTP GET /api/v1/contacts responded 401 in 16.1678 ms
+2026-07-29 16:54:43.702 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8000/api/v1/contacts? - 401 0 null 25.2774ms
+2026-07-29 18:37:42.088 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8000/api/v1/accounts/1 - null null
+2026-07-29 18:37:42.177 +05:30 [INF] CORS policy execution successful.
+2026-07-29 18:37:42.190 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-29 18:37:42.193 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-29 18:37:42.194 +05:30 [INF] HTTP GET /api/v1/accounts/1 responded 401 in 23.5266 ms
+2026-07-29 18:37:42.202 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8000/api/v1/accounts/1 - 401 0 null 119.9431ms
+2026-07-29 18:37:42.212 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8000/api/v1/accounts/1 - null null
+2026-07-29 18:37:42.264 +05:30 [INF] CORS policy execution successful.
+2026-07-29 18:37:42.266 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-29 18:37:42.274 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-29 18:37:42.288 +05:30 [INF] HTTP GET /api/v1/accounts/1 responded 401 in 24.9507 ms
+2026-07-29 18:37:42.407 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8000/api/v1/accounts/1 - 401 0 null 194.9316ms
+2026-07-29 18:37:47.519 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8000/api/v1/accounts? - null null
+2026-07-29 18:37:47.552 +05:30 [INF] CORS policy execution successful.
+2026-07-29 18:37:47.557 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-29 18:37:47.561 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-29 18:37:47.562 +05:30 [INF] HTTP GET /api/v1/accounts responded 401 in 13.2429 ms
+2026-07-29 18:37:47.564 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8000/api/v1/accounts? - 401 0 null 45.5059ms
+2026-07-29 18:37:47.624 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8000/api/v1/accounts? - null null
+2026-07-29 18:37:47.642 +05:30 [INF] CORS policy execution successful.
+2026-07-29 18:37:47.647 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-29 18:37:47.648 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-29 18:37:47.658 +05:30 [INF] HTTP GET /api/v1/accounts responded 401 in 16.4307 ms
+2026-07-29 18:37:47.665 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8000/api/v1/accounts? - 401 0 null 40.8071ms
+2026-07-29 18:38:16.722 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:8000/api/v1/accounts - null null
+2026-07-29 18:38:16.756 +05:30 [INF] CORS policy execution successful.
+2026-07-29 18:38:16.823 +05:30 [INF] HTTP OPTIONS /api/v1/accounts responded 204 in 67.5418 ms
+2026-07-29 18:38:16.839 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:8000/api/v1/accounts - 204 null null 117.1392ms
+2026-07-29 18:38:16.858 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:8000/api/v1/accounts - application/json 507
+2026-07-29 18:38:16.862 +05:30 [INF] CORS policy execution successful.
+2026-07-29 18:38:16.870 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-29 18:38:16.871 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-29 18:38:16.874 +05:30 [INF] HTTP POST /api/v1/accounts responded 401 in 12.0127 ms
+2026-07-29 18:38:16.876 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:8000/api/v1/accounts - 401 0 null 18.4767ms
+2026-07-29 18:46:26.464 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8000/api/v1/opportunities? - null null
+2026-07-29 18:46:26.646 +05:30 [INF] CORS policy execution successful.
+2026-07-29 18:46:26.647 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-29 18:46:26.648 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-29 18:46:26.650 +05:30 [INF] HTTP GET /api/v1/opportunities responded 401 in 4.6839 ms
+2026-07-29 18:46:26.657 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8000/api/v1/opportunities? - 401 0 null 192.7514ms
+2026-07-29 18:46:26.744 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8000/api/v1/opportunities? - null null
+2026-07-29 18:46:26.756 +05:30 [INF] CORS policy execution successful.
+2026-07-29 18:46:26.758 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-29 18:46:26.760 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-29 18:46:26.766 +05:30 [INF] HTTP GET /api/v1/opportunities responded 401 in 9.6597 ms
+2026-07-29 18:46:26.775 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8000/api/v1/opportunities? - 401 0 null 31.3097ms
+2026-07-29 18:47:22.363 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8000/api/v1/opportunities? - null null
+2026-07-29 18:47:22.420 +05:30 [INF] CORS policy execution successful.
+2026-07-29 18:47:22.435 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-29 18:47:22.437 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-29 18:47:22.443 +05:30 [INF] HTTP GET /api/v1/opportunities responded 401 in 19.8018 ms
+2026-07-29 18:47:22.448 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8000/api/v1/opportunities? - 401 0 null 84.8057ms
+2026-07-29 18:47:22.497 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8000/api/v1/opportunities? - null null
+2026-07-29 18:47:22.519 +05:30 [INF] CORS policy execution successful.
+2026-07-29 18:47:22.555 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-29 18:47:22.618 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-29 18:47:22.631 +05:30 [INF] HTTP GET /api/v1/opportunities responded 401 in 111.8788 ms
+2026-07-29 18:47:22.636 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8000/api/v1/opportunities? - 401 0 null 138.9791ms
+2026-07-29 18:53:00.935 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8000/api/v1/accounts - null null
+2026-07-29 18:53:00.942 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-29 18:53:01.007 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-29 18:53:01.024 +05:30 [INF] HTTP GET /api/v1/accounts responded 401 in 69.2311 ms
+2026-07-29 18:53:01.028 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8000/api/v1/accounts - 401 0 null 92.5527ms
+2026-07-29 18:53:14.312 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8000/api/v1/accounts/stats - null null
+2026-07-29 18:53:14.318 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-29 18:53:14.319 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-29 18:53:14.327 +05:30 [INF] HTTP GET /api/v1/accounts/stats responded 401 in 9.7590 ms
+2026-07-29 18:53:14.339 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8000/api/v1/accounts/stats - 401 0 null 27.7255ms
+2026-07-29 18:53:26.049 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8000/api/v1/auth/me - null null
+2026-07-29 18:53:26.055 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-29 18:53:26.057 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-29 18:53:26.058 +05:30 [INF] HTTP GET /api/v1/auth/me responded 401 in 3.1591 ms
+2026-07-29 18:53:26.064 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8000/api/v1/auth/me - 401 0 null 14.4864ms
+2026-07-29 18:59:01.252 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8000/api/v1/auth/me - null null
+2026-07-29 18:59:01.261 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-29 18:59:01.348 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-29 18:59:01.351 +05:30 [INF] HTTP GET /api/v1/auth/me responded 401 in 90.1421 ms
+2026-07-29 18:59:01.353 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8000/api/v1/auth/me - 401 0 null 101.0717ms
+2026-07-29 19:00:32.471 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:8000/api/v1/auth/login - null null
+2026-07-29 19:00:32.475 +05:30 [INF] CORS policy execution successful.
+2026-07-29 19:00:32.480 +05:30 [INF] HTTP OPTIONS /api/v1/auth/login responded 204 in 5.2525 ms
+2026-07-29 19:00:32.486 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:8000/api/v1/auth/login - 204 null null 15.6324ms
+2026-07-29 19:00:32.505 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:8000/api/v1/auth/login - application/json 48
+2026-07-29 19:00:32.517 +05:30 [INF] CORS policy execution successful.
+2026-07-29 19:00:32.557 +05:30 [INF] Executing endpoint 'SanCRM.API.Controllers.AuthController.Login (SanCRM.API)'
+2026-07-29 19:00:32.744 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(SanCRM.Application.DTOs.LoginRequest) on controller SanCRM.API.Controllers.AuthController (SanCRM.API).
+2026-07-29 19:00:37.237 +05:30 [INF] Executed action SanCRM.API.Controllers.AuthController.Login (SanCRM.API) in 4485.8011ms
+2026-07-29 19:00:37.260 +05:30 [INF] Executed endpoint 'SanCRM.API.Controllers.AuthController.Login (SanCRM.API)'
+2026-07-29 19:00:37.286 +05:30 [ERR] Unhandled exception: Unable to connect to any of the specified MySQL hosts.
+MySqlConnector.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   at MySqlConnector.Core.ServerSession.OpenTcpSocketAsync(ConnectionSettings cs, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 1063
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int64 startingTimestamp, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 425
+   at MySqlConnector.Core.ConnectionPool.ConnectSessionAsync(MySqlConnection connection, Action`4 logMessage, Int64 startingTimestamp, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 428
+   at MySqlConnector.Core.ConnectionPool.ConnectSessionAsync(MySqlConnection connection, Action`4 logMessage, Int64 startingTimestamp, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 433
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int64 startingTimestamp, Int32 timeoutMilliseconds, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 111
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int64 startingTimestamp, Int32 timeoutMilliseconds, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 144
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 919
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 419
+   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 381
+   at Microsoft.EntityFrameworkCore.ServerVersion.AutoDetect(String connectionString)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__0(DbContextOptionsBuilder options) in D:\SanCRM\backend\SanCRM.API\Program.cs:line 37
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass1_0`2.<AddDbContext>b__0(IServiceProvider _, DbContextOptionsBuilder b)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.CreateDbContextOptions[TContext](IServiceProvider applicationServiceProvider, Action`2 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass17_0`1.<AddCoreServices>b__0(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in D:\SanCRM\backend\SanCRM.API\Program.cs:line 148
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at SanCRM.API.Middleware.ExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in D:\SanCRM\backend\SanCRM.API\Middleware\ExceptionHandlerMiddleware.cs:line 22
+2026-07-29 19:00:38.352 +05:30 [ERR] HTTP POST /api/v1/auth/login responded 500 in 5835.5005 ms
+2026-07-29 19:00:38.361 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:8000/api/v1/auth/login - 500 null application/json 5855.9189ms
+2026-07-29 19:01:26.811 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:8000/api/v1/auth/login - null null
+2026-07-29 19:01:26.817 +05:30 [INF] CORS policy execution successful.
+2026-07-29 19:01:26.823 +05:30 [INF] HTTP OPTIONS /api/v1/auth/login responded 204 in 7.5040 ms
+2026-07-29 19:01:26.831 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:8000/api/v1/auth/login - 204 null null 19.1602ms
+2026-07-29 19:01:26.846 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:8000/api/v1/auth/login - application/json 51
+2026-07-29 19:01:26.854 +05:30 [INF] CORS policy execution successful.
+2026-07-29 19:01:26.860 +05:30 [INF] Executing endpoint 'SanCRM.API.Controllers.AuthController.Login (SanCRM.API)'
+2026-07-29 19:01:26.863 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(SanCRM.Application.DTOs.LoginRequest) on controller SanCRM.API.Controllers.AuthController (SanCRM.API).
+2026-07-29 19:01:30.938 +05:30 [INF] Executed action SanCRM.API.Controllers.AuthController.Login (SanCRM.API) in 4068.9585ms
+2026-07-29 19:01:30.941 +05:30 [INF] Executed endpoint 'SanCRM.API.Controllers.AuthController.Login (SanCRM.API)'
+2026-07-29 19:01:30.942 +05:30 [ERR] Unhandled exception: Unable to connect to any of the specified MySQL hosts.
+MySqlConnector.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   at MySqlConnector.Core.ServerSession.OpenTcpSocketAsync(ConnectionSettings cs, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 1063
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int64 startingTimestamp, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 425
+   at MySqlConnector.Core.ConnectionPool.ConnectSessionAsync(MySqlConnection connection, Action`4 logMessage, Int64 startingTimestamp, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 428
+   at MySqlConnector.Core.ConnectionPool.ConnectSessionAsync(MySqlConnection connection, Action`4 logMessage, Int64 startingTimestamp, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 433
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int64 startingTimestamp, Int32 timeoutMilliseconds, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 111
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int64 startingTimestamp, Int32 timeoutMilliseconds, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 144
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 919
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 419
+   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 381
+   at Microsoft.EntityFrameworkCore.ServerVersion.AutoDetect(String connectionString)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__0(DbContextOptionsBuilder options) in D:\SanCRM\backend\SanCRM.API\Program.cs:line 37
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass1_0`2.<AddDbContext>b__0(IServiceProvider _, DbContextOptionsBuilder b)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.CreateDbContextOptions[TContext](IServiceProvider applicationServiceProvider, Action`2 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass17_0`1.<AddCoreServices>b__0(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in D:\SanCRM\backend\SanCRM.API\Program.cs:line 148
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at SanCRM.API.Middleware.ExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in D:\SanCRM\backend\SanCRM.API\Middleware\ExceptionHandlerMiddleware.cs:line 22
+2026-07-29 19:01:31.073 +05:30 [ERR] HTTP POST /api/v1/auth/login responded 500 in 4218.6125 ms
+2026-07-29 19:01:31.097 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:8000/api/v1/auth/login - 500 null application/json 4251.7668ms
+2026-07-29 19:01:43.369 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:8000/api/v1/auth/login - null null
+2026-07-29 19:01:43.376 +05:30 [INF] CORS policy execution successful.
+2026-07-29 19:01:43.378 +05:30 [INF] HTTP OPTIONS /api/v1/auth/login responded 204 in 1.9908 ms
+2026-07-29 19:01:43.381 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:8000/api/v1/auth/login - 204 null null 12.0575ms
+2026-07-29 19:01:43.415 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:8000/api/v1/auth/login - application/json 51
+2026-07-29 19:01:43.427 +05:30 [INF] CORS policy execution successful.
+2026-07-29 19:01:43.428 +05:30 [INF] Executing endpoint 'SanCRM.API.Controllers.AuthController.Login (SanCRM.API)'
+2026-07-29 19:01:43.439 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(SanCRM.Application.DTOs.LoginRequest) on controller SanCRM.API.Controllers.AuthController (SanCRM.API).
+2026-07-29 19:01:47.493 +05:30 [INF] Executed action SanCRM.API.Controllers.AuthController.Login (SanCRM.API) in 4048.7926ms
+2026-07-29 19:01:47.499 +05:30 [INF] Executed endpoint 'SanCRM.API.Controllers.AuthController.Login (SanCRM.API)'
+2026-07-29 19:01:47.502 +05:30 [ERR] Unhandled exception: Unable to connect to any of the specified MySQL hosts.
+MySqlConnector.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   at MySqlConnector.Core.ServerSession.OpenTcpSocketAsync(ConnectionSettings cs, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 1063
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int64 startingTimestamp, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 425
+   at MySqlConnector.Core.ConnectionPool.ConnectSessionAsync(MySqlConnection connection, Action`4 logMessage, Int64 startingTimestamp, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 428
+   at MySqlConnector.Core.ConnectionPool.ConnectSessionAsync(MySqlConnection connection, Action`4 logMessage, Int64 startingTimestamp, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 433
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int64 startingTimestamp, Int32 timeoutMilliseconds, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 111
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int64 startingTimestamp, Int32 timeoutMilliseconds, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 144
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 919
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 419
+   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 381
+   at Microsoft.EntityFrameworkCore.ServerVersion.AutoDetect(String connectionString)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__0(DbContextOptionsBuilder options) in D:\SanCRM\backend\SanCRM.API\Program.cs:line 37
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass1_0`2.<AddDbContext>b__0(IServiceProvider _, DbContextOptionsBuilder b)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.CreateDbContextOptions[TContext](IServiceProvider applicationServiceProvider, Action`2 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass17_0`1.<AddCoreServices>b__0(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in D:\SanCRM\backend\SanCRM.API\Program.cs:line 148
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at SanCRM.API.Middleware.ExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in D:\SanCRM\backend\SanCRM.API\Middleware\ExceptionHandlerMiddleware.cs:line 22
+2026-07-29 19:01:47.567 +05:30 [ERR] HTTP POST /api/v1/auth/login responded 500 in 4139.1670 ms
+2026-07-29 19:01:47.568 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:8000/api/v1/auth/login - 500 null application/json 4152.6501ms
+2026-07-29 19:01:52.940 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8000/api/v1/auth/me - null null
+2026-07-29 19:01:53.090 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-29 19:01:53.102 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-29 19:01:53.107 +05:30 [INF] HTTP GET /api/v1/auth/me responded 401 in 16.8852 ms
+2026-07-29 19:01:53.129 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8000/api/v1/auth/me - 401 0 null 189.7807ms
+2026-07-29 19:02:13.855 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:8000/api/v1/auth/login - application/json 60
+2026-07-29 19:02:13.909 +05:30 [INF] CORS policy execution failed.
+2026-07-29 19:02:13.927 +05:30 [INF] Request origin http://localhost:8000 does not have permission to access the resource.
+2026-07-29 19:02:14.161 +05:30 [INF] Executing endpoint 'SanCRM.API.Controllers.AuthController.Login (SanCRM.API)'
+2026-07-29 19:02:14.162 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(SanCRM.Application.DTOs.LoginRequest) on controller SanCRM.API.Controllers.AuthController (SanCRM.API).
+2026-07-29 19:02:18.459 +05:30 [INF] Executed action SanCRM.API.Controllers.AuthController.Login (SanCRM.API) in 4291.2048ms
+2026-07-29 19:02:18.500 +05:30 [INF] Executed endpoint 'SanCRM.API.Controllers.AuthController.Login (SanCRM.API)'
+2026-07-29 19:02:18.509 +05:30 [ERR] Unhandled exception: Unable to connect to any of the specified MySQL hosts.
+MySqlConnector.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   at MySqlConnector.Core.ServerSession.OpenTcpSocketAsync(ConnectionSettings cs, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 1063
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int64 startingTimestamp, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 425
+   at MySqlConnector.Core.ConnectionPool.ConnectSessionAsync(MySqlConnection connection, Action`4 logMessage, Int64 startingTimestamp, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 428
+   at MySqlConnector.Core.ConnectionPool.ConnectSessionAsync(MySqlConnection connection, Action`4 logMessage, Int64 startingTimestamp, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 433
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int64 startingTimestamp, Int32 timeoutMilliseconds, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 111
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int64 startingTimestamp, Int32 timeoutMilliseconds, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 144
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 919
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 419
+   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 381
+   at Microsoft.EntityFrameworkCore.ServerVersion.AutoDetect(String connectionString)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__0(DbContextOptionsBuilder options) in D:\SanCRM\backend\SanCRM.API\Program.cs:line 37
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass1_0`2.<AddDbContext>b__0(IServiceProvider _, DbContextOptionsBuilder b)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.CreateDbContextOptions[TContext](IServiceProvider applicationServiceProvider, Action`2 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass17_0`1.<AddCoreServices>b__0(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in D:\SanCRM\backend\SanCRM.API\Program.cs:line 148
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at SanCRM.API.Middleware.ExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in D:\SanCRM\backend\SanCRM.API\Middleware\ExceptionHandlerMiddleware.cs:line 22
+2026-07-29 19:02:18.548 +05:30 [ERR] HTTP POST /api/v1/auth/login responded 500 in 4639.4062 ms
+2026-07-29 19:02:18.558 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:8000/api/v1/auth/login - 500 null application/json 4702.6611ms
+2026-07-29 19:02:53.497 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8000/index.html - null null
+2026-07-29 19:02:53.525 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8000/index.html - 200 null text/html;charset=utf-8 27.6609ms
+2026-07-29 19:02:53.946 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8000/swagger/v1/swagger.json - null null
+2026-07-29 19:02:55.434 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1487.5695ms
+2026-07-29 19:03:05.106 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8000/api/v1/auth/me - null null
+2026-07-29 19:03:05.152 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-29 19:03:05.154 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-29 19:03:05.155 +05:30 [INF] HTTP GET /api/v1/auth/me responded 401 in 3.0268 ms
+2026-07-29 19:03:05.156 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8000/api/v1/auth/me - 401 0 null 50.1883ms
+2026-07-29 19:03:29.225 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:8000/api/v1/auth/login - application/json 60
+2026-07-29 19:03:29.228 +05:30 [INF] CORS policy execution failed.
+2026-07-29 19:03:29.230 +05:30 [INF] Request origin http://localhost:8000 does not have permission to access the resource.
+2026-07-29 19:03:29.234 +05:30 [INF] Executing endpoint 'SanCRM.API.Controllers.AuthController.Login (SanCRM.API)'
+2026-07-29 19:03:29.246 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(SanCRM.Application.DTOs.LoginRequest) on controller SanCRM.API.Controllers.AuthController (SanCRM.API).
+2026-07-29 19:03:33.345 +05:30 [INF] Executed action SanCRM.API.Controllers.AuthController.Login (SanCRM.API) in 4081.7692ms
+2026-07-29 19:03:33.349 +05:30 [INF] Executed endpoint 'SanCRM.API.Controllers.AuthController.Login (SanCRM.API)'
+2026-07-29 19:03:33.365 +05:30 [ERR] Unhandled exception: Unable to connect to any of the specified MySQL hosts.
+MySqlConnector.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   at MySqlConnector.Core.ServerSession.OpenTcpSocketAsync(ConnectionSettings cs, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 1063
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int64 startingTimestamp, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 425
+   at MySqlConnector.Core.ConnectionPool.ConnectSessionAsync(MySqlConnection connection, Action`4 logMessage, Int64 startingTimestamp, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 428
+   at MySqlConnector.Core.ConnectionPool.ConnectSessionAsync(MySqlConnection connection, Action`4 logMessage, Int64 startingTimestamp, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 433
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int64 startingTimestamp, Int32 timeoutMilliseconds, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 111
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int64 startingTimestamp, Int32 timeoutMilliseconds, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 144
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 919
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 419
+   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 381
+   at Microsoft.EntityFrameworkCore.ServerVersion.AutoDetect(String connectionString)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__0(DbContextOptionsBuilder options) in D:\SanCRM\backend\SanCRM.API\Program.cs:line 37
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass1_0`2.<AddDbContext>b__0(IServiceProvider _, DbContextOptionsBuilder b)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.CreateDbContextOptions[TContext](IServiceProvider applicationServiceProvider, Action`2 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass17_0`1.<AddCoreServices>b__0(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in D:\SanCRM\backend\SanCRM.API\Program.cs:line 148
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at SanCRM.API.Middleware.ExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in D:\SanCRM\backend\SanCRM.API\Middleware\ExceptionHandlerMiddleware.cs:line 22
+2026-07-29 19:03:33.448 +05:30 [ERR] HTTP POST /api/v1/auth/login responded 500 in 4219.6852 ms
+2026-07-29 19:03:33.450 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:8000/api/v1/auth/login - 500 null application/json 4225.3366ms
+2026-07-29 19:04:51.694 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:8000/api/v1/auth/login - application/json 60
+2026-07-29 19:04:51.697 +05:30 [INF] CORS policy execution failed.
+2026-07-29 19:04:51.697 +05:30 [INF] Request origin http://localhost:8000 does not have permission to access the resource.
+2026-07-29 19:04:51.698 +05:30 [INF] Executing endpoint 'SanCRM.API.Controllers.AuthController.Login (SanCRM.API)'
+2026-07-29 19:04:51.702 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(SanCRM.Application.DTOs.LoginRequest) on controller SanCRM.API.Controllers.AuthController (SanCRM.API).
+2026-07-29 19:04:55.790 +05:30 [INF] Executed action SanCRM.API.Controllers.AuthController.Login (SanCRM.API) in 4083.479ms
+2026-07-29 19:04:55.797 +05:30 [INF] Executed endpoint 'SanCRM.API.Controllers.AuthController.Login (SanCRM.API)'
+2026-07-29 19:04:55.814 +05:30 [ERR] Unhandled exception: Unable to connect to any of the specified MySQL hosts.
+MySqlConnector.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   at MySqlConnector.Core.ServerSession.OpenTcpSocketAsync(ConnectionSettings cs, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 1063
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int64 startingTimestamp, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 425
+   at MySqlConnector.Core.ConnectionPool.ConnectSessionAsync(MySqlConnection connection, Action`4 logMessage, Int64 startingTimestamp, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 428
+   at MySqlConnector.Core.ConnectionPool.ConnectSessionAsync(MySqlConnection connection, Action`4 logMessage, Int64 startingTimestamp, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 433
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int64 startingTimestamp, Int32 timeoutMilliseconds, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 111
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int64 startingTimestamp, Int32 timeoutMilliseconds, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 144
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 919
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 419
+   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 381
+   at Microsoft.EntityFrameworkCore.ServerVersion.AutoDetect(String connectionString)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__0(DbContextOptionsBuilder options) in D:\SanCRM\backend\SanCRM.API\Program.cs:line 37
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass1_0`2.<AddDbContext>b__0(IServiceProvider _, DbContextOptionsBuilder b)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.CreateDbContextOptions[TContext](IServiceProvider applicationServiceProvider, Action`2 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass17_0`1.<AddCoreServices>b__0(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in D:\SanCRM\backend\SanCRM.API\Program.cs:line 148
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at SanCRM.API.Middleware.ExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in D:\SanCRM\backend\SanCRM.API\Middleware\ExceptionHandlerMiddleware.cs:line 22
+2026-07-29 19:04:55.868 +05:30 [ERR] HTTP POST /api/v1/auth/login responded 500 in 4171.6111 ms
+2026-07-29 19:04:55.897 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:8000/api/v1/auth/login - 500 null application/json 4202.4995ms

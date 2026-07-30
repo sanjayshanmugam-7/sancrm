@@ -1,0 +1,11 @@
+D:\SanCRM\backend\SanCRM.Domain\bin\Release\net8.0\SanCRM.Domain.deps.json
+D:\SanCRM\backend\SanCRM.Domain\bin\Release\net8.0\SanCRM.Domain.dll
+D:\SanCRM\backend\SanCRM.Domain\bin\Release\net8.0\SanCRM.Domain.pdb
+D:\SanCRM\backend\SanCRM.Domain\obj\Release\net8.0\SanCRM.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\SanCRM\backend\SanCRM.Domain\obj\Release\net8.0\SanCRM.Domain.AssemblyInfoInputs.cache
+D:\SanCRM\backend\SanCRM.Domain\obj\Release\net8.0\SanCRM.Domain.AssemblyInfo.cs
+D:\SanCRM\backend\SanCRM.Domain\obj\Release\net8.0\SanCRM.Domain.csproj.CoreCompileInputs.cache
+D:\SanCRM\backend\SanCRM.Domain\obj\Release\net8.0\SanCRM.Domain.dll
+D:\SanCRM\backend\SanCRM.Domain\obj\Release\net8.0\refint\SanCRM.Domain.dll
+D:\SanCRM\backend\SanCRM.Domain\obj\Release\net8.0\SanCRM.Domain.pdb
+D:\SanCRM\backend\SanCRM.Domain\obj\Release\net8.0\ref\SanCRM.Domain.dll

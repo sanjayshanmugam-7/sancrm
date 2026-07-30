@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+crm-app/node_modules/
+
+# Build outputs
+crm-app/build/
+backend/SanCRM.API/bin/
+backend/SanCRM.API/obj/
+backend/SanCRM.Application/bin/
+backend/SanCRM.Application/obj/
+backend/SanCRM.Domain/bin/
+backend/SanCRM.Domain/obj/
+backend/SanCRM.Infrastructure/bin/
+backend/SanCRM.Infrastructure/obj/
+
+# Logs
+backend/SanCRM.API/logs/
+*.log
+
+# Environment / secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# User secrets
+*.user
