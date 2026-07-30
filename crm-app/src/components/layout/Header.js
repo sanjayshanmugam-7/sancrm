@@ -9,8 +9,6 @@ import {
   Person, Help, TrendingUp, PersonAdd, Close, KeyboardArrowDown,
 } from '@mui/icons-material';
 import { useNavigate } from 'react-router-dom';
-import { useDispatch, useSelector } from 'react-redux';
-import { logout } from '../../store/slices/authSlice';
 
 const mockNotifications = [
   { id: 1, type: 'lead', message: 'New lead from Website: Arjun Sharma', time: '5 min ago', read: false, path: '/leads/1' },
@@ -22,23 +20,12 @@ const mockNotifications = [
 
 const Header = ({ onToggleSidebar, sidebarCollapsed }) => {
   const navigate = useNavigate();
-  const dispatch = useDispatch();
-  const { user } = useSelector((s) => s.auth);
   const [anchorEl, setAnchorEl] = useState(null);
   const [notifAnchor, setNotifAnchor] = useState(null);
   const [searchFocused, setSearchFocused] = useState(false);
   const [searchValue, setSearchValue] = useState('');
 
   const unreadCount = mockNotifications.filter(n => !n.read).length;
-
-  const displayName = user ? `${user.firstName ?? ''} ${user.lastName ?? ''}`.trim() || user.email : 'User';
-  const initials = displayName.split(' ').map(w => w[0]).join('').slice(0, 2).toUpperCase() || 'U';
-
-  function handleLogout() {
-    setAnchorEl(null);
-    dispatch(logout());
-    navigate('/login', { replace: true });
-  }
 
   return (
     <AppBar
@@ -124,10 +111,10 @@ const Header = ({ onToggleSidebar, sidebarCollapsed }) => {
           onClick={(e) => setAnchorEl(e.currentTarget)}
           sx={{ display: 'flex', alignItems: 'center', gap: 1, cursor: 'pointer', p: 0.5, borderRadius: 2, '&:hover': { bgcolor: 'action.hover' } }}
         >
-          <Avatar sx={{ width: 32, height: 32, bgcolor: 'primary.main', fontSize: '0.8rem', fontWeight: 700 }}>{initials}</Avatar>
+          <Avatar sx={{ width: 32, height: 32, bgcolor: 'primary.main', fontSize: '0.8rem', fontWeight: 700 }}>RK</Avatar>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
-            <Typography variant="body2" sx={{ fontWeight: 600, lineHeight: 1.2, fontSize: '0.8rem' }}>{displayName}</Typography>
-            <Typography variant="caption" sx={{ color: 'text.secondary', fontSize: '0.7rem', lineHeight: 1 }}>{user?.role ?? 'CRM User'}</Typography>
+            <Typography variant="body2" sx={{ fontWeight: 600, lineHeight: 1.2, fontSize: '0.8rem' }}>Ravi Kumar</Typography>
+            <Typography variant="caption" sx={{ color: 'text.secondary', fontSize: '0.7rem', lineHeight: 1 }}>Sales Manager</Typography>
           </Box>
           <KeyboardArrowDown sx={{ fontSize: 16, color: 'text.secondary' }} />
         </Box>
@@ -138,8 +125,8 @@ const Header = ({ onToggleSidebar, sidebarCollapsed }) => {
           transformOrigin={{ horizontal: 'right', vertical: 'top' }}
           anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }}>
           <Box sx={{ px: 2, py: 1.5 }}>
-            <Typography variant="subtitle2" fontWeight={700}>{displayName}</Typography>
-            <Typography variant="caption" color="text.secondary">{user?.email ?? ''}</Typography>
+            <Typography variant="subtitle2" fontWeight={700}>Ravi Kumar</Typography>
+            <Typography variant="caption" color="text.secondary">ravi.kumar@sancrm.com</Typography>
           </Box>
           <Divider />
           <MenuItem onClick={() => setAnchorEl(null)} sx={{ gap: 1.5, py: 1 }}>
@@ -155,7 +142,7 @@ const Header = ({ onToggleSidebar, sidebarCollapsed }) => {
             <ListItemText primary="Help & Support" primaryTypographyProps={{ fontSize: '0.875rem' }} />
           </MenuItem>
           <Divider />
-          <MenuItem sx={{ gap: 1.5, py: 1, color: 'error.main' }} onClick={handleLogout}>
+          <MenuItem sx={{ gap: 1.5, py: 1, color: 'error.main' }} onClick={() => setAnchorEl(null)}>
             <ListItemIcon><Logout fontSize="small" color="error" /></ListItemIcon>
             <ListItemText primary="Sign Out" primaryTypographyProps={{ fontSize: '0.875rem', color: 'error.main' }} />
           </MenuItem>

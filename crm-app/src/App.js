@@ -1,7 +1,5 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
 import Layout from './components/layout/Layout';
-import LoginPage from './pages/auth/LoginPage';
-import ProtectedRoute from './components/common/ProtectedRoute';
 
 // Dashboard
 import Dashboard from './pages/Dashboard';
@@ -76,101 +74,88 @@ import DigitalSignature from './pages/documents/DigitalSignature';
 
 function App() {
   return (
-    <Routes>
-      {/* Public */}
-      <Route path="/login" element={<LoginPage />} />
-
-      {/* All other routes are protected */}
-      <Route
-        path="/*"
-        element={
-          <ProtectedRoute>
-            <Layout>
-              <Routes>
+    <Layout>
+      <Routes>
         {/* Dashboard */}
-        <Route index element={<Navigate to="dashboard" replace />} />
-        <Route path="dashboard" element={<Dashboard />} />
+        <Route path="/" element={<Navigate to="/dashboard" replace />} />
+        <Route path="/dashboard" element={<Dashboard />} />
 
         {/* Communication */}
-        <Route path="communication/history" element={<CommunicationHistory />} />
-        <Route path="communication/notes" element={<Notes />} />
-        <Route path="communication/attachments" element={<Attachments />} />
-        <Route path="communication/relationships" element={<RelationshipMapping />} />
+        <Route path="/communication/history" element={<CommunicationHistory />} />
+        <Route path="/communication/notes" element={<Notes />} />
+        <Route path="/communication/attachments" element={<Attachments />} />
+        <Route path="/communication/relationships" element={<RelationshipMapping />} />
 
         {/* Leads */}
-        <Route path="leads" element={<LeadsList />} />
-        <Route path="leads/new" element={<LeadForm />} />
-        <Route path="leads/tools/bulk-import" element={<BulkImport />} />
-        <Route path="leads/tools/duplicate-detection" element={<DuplicateDetection />} />
-        <Route path="leads/tools/assignment" element={<LeadAssignment />} />
-        <Route path="leads/:id/convert" element={<LeadConversion />} />
-        <Route path="leads/:id/edit" element={<LeadForm />} />
-        <Route path="leads/:id" element={<LeadDetail />} />
+        <Route path="/leads" element={<LeadsList />} />
+        <Route path="/leads/new" element={<LeadForm />} />
+        <Route path="/leads/tools/bulk-import" element={<BulkImport />} />
+        <Route path="/leads/tools/duplicate-detection" element={<DuplicateDetection />} />
+        <Route path="/leads/tools/assignment" element={<LeadAssignment />} />
+        <Route path="/leads/:id/convert" element={<LeadConversion />} />
+        <Route path="/leads/:id/edit" element={<LeadForm />} />
+        <Route path="/leads/:id" element={<LeadDetail />} />
 
         {/* Contacts */}
-        <Route path="contacts" element={<ContactsList />} />
-        <Route path="contacts/new" element={<ContactForm />} />
-        <Route path="contacts/groups" element={<CustomerGroups />} />
-        <Route path="contacts/:id/edit" element={<ContactForm />} />
-        <Route path="contacts/:id" element={<ContactDetail />} />
+        <Route path="/contacts" element={<ContactsList />} />
+        <Route path="/contacts/new" element={<ContactForm />} />
+        <Route path="/contacts/groups" element={<CustomerGroups />} />
+        <Route path="/contacts/:id/edit" element={<ContactForm />} />
+        <Route path="/contacts/:id" element={<ContactDetail />} />
 
         {/* Accounts – sub-modules first to avoid :id catching them */}
-        <Route path="accounts/companies" element={<Companies />} />
-        <Route path="accounts/branches" element={<Branches />} />
-        <Route path="accounts/parent-companies" element={<ParentCompanies />} />
-        <Route path="accounts/categories" element={<CustomerCategories />} />
-        <Route path="accounts/credit-limits" element={<CreditLimits />} />
-        <Route path="accounts/gst" element={<GSTDetails />} />
-        <Route path="accounts/billing-address" element={<BillingAddress />} />
-        <Route path="accounts/shipping-address" element={<ShippingAddress />} />
-        <Route path="accounts/hierarchy" element={<CompanyHierarchy />} />
-        <Route path="accounts/new" element={<AccountForm />} />
-        <Route path="accounts/:id/edit" element={<AccountForm />} />
-        <Route path="accounts/:id" element={<AccountDetail />} />
-        <Route path="accounts" element={<AccountsList />} />
+        <Route path="/accounts/companies" element={<Companies />} />
+        <Route path="/accounts/branches" element={<Branches />} />
+        <Route path="/accounts/parent-companies" element={<ParentCompanies />} />
+        <Route path="/accounts/categories" element={<CustomerCategories />} />
+        <Route path="/accounts/credit-limits" element={<CreditLimits />} />
+        <Route path="/accounts/gst" element={<GSTDetails />} />
+        <Route path="/accounts/billing-address" element={<BillingAddress />} />
+        <Route path="/accounts/shipping-address" element={<ShippingAddress />} />
+        <Route path="/accounts/hierarchy" element={<CompanyHierarchy />} />
+        <Route path="/accounts/new" element={<AccountForm />} />
+        <Route path="/accounts/:id/edit" element={<AccountForm />} />
+        <Route path="/accounts/:id" element={<AccountDetail />} />
+        <Route path="/accounts" element={<AccountsList />} />
 
         {/* Opportunities */}
-        <Route path="opportunities/tracking" element={<OpportunityTracking />} />
-        <Route path="opportunities/pipeline" element={<SalesPipeline />} />
-        <Route path="opportunities/new" element={<OpportunityForm />} />
-        <Route path="opportunities/:id/edit" element={<OpportunityForm />} />
-        <Route path="opportunities/:id" element={<OpportunityDetail />} />
-        <Route path="opportunities" element={<OpportunitiesList />} />
+        <Route path="/opportunities/tracking" element={<OpportunityTracking />} />
+        <Route path="/opportunities/pipeline" element={<SalesPipeline />} />
+        <Route path="/opportunities/new" element={<OpportunityForm />} />
+        <Route path="/opportunities/:id/edit" element={<OpportunityForm />} />
+        <Route path="/opportunities/:id" element={<OpportunityDetail />} />
+        <Route path="/opportunities" element={<OpportunitiesList />} />
 
         {/* Activities */}
-        <Route path="activities" element={<ActivitiesCalendar />} />
-        <Route path="activities/calls" element={<CallsList />} />
-        <Route path="activities/meetings" element={<MeetingsList />} />
-        <Route path="activities/emails" element={<EmailsList />} />
-        <Route path="activities/followups" element={<FollowUpsList />} />
+        <Route path="/activities" element={<ActivitiesCalendar />} />
+        <Route path="/activities/calls" element={<CallsList />} />
+        <Route path="/activities/meetings" element={<MeetingsList />} />
+        <Route path="/activities/emails" element={<EmailsList />} />
+        <Route path="/activities/followups" element={<FollowUpsList />} />
 
         {/* Campaigns */}
-        <Route path="campaigns" element={<CampaignsList />} />
-        <Route path="campaigns/email/new" element={<EmailMarketing />} />
-        <Route path="campaigns/sms/new" element={<SMSCampaign />} />
-        <Route path="campaigns/whatsapp/new" element={<WhatsAppCampaign />} />
-        <Route path="campaigns/facebook/new" element={<FacebookCampaign />} />
-        <Route path="campaigns/google/new" element={<GoogleCampaign />} />
-        <Route path="campaigns/push/new" element={<PushNotifications />} />
-        <Route path="campaigns/:id" element={<CampaignDetail />} />
+        <Route path="/campaigns" element={<CampaignsList />} />
+        <Route path="/campaigns/email/new" element={<EmailMarketing />} />
+        <Route path="/campaigns/sms/new" element={<SMSCampaign />} />
+        <Route path="/campaigns/whatsapp/new" element={<WhatsAppCampaign />} />
+        <Route path="/campaigns/facebook/new" element={<FacebookCampaign />} />
+        <Route path="/campaigns/google/new" element={<GoogleCampaign />} />
+        <Route path="/campaigns/push/new" element={<PushNotifications />} />
+        <Route path="/campaigns/:id" element={<CampaignDetail />} />
 
         {/* Documents */}
-        <Route path="documents/proposal/new" element={<ProposalForm />} />
-        <Route path="documents/quotation/new" element={<QuotationForm />} />
-        <Route path="documents/agreement/new" element={<AgreementForm />} />
-        <Route path="documents/ocr" element={<OCRDocuments />} />
-        <Route path="documents/signature" element={<DigitalSignature />} />
-        <Route path="documents/:id" element={<DocumentDetail />} />
-        <Route path="documents" element={<DocumentsList />} />
+        <Route path="/documents/proposal/new" element={<ProposalForm />} />
+        <Route path="/documents/quotation/new" element={<QuotationForm />} />
+        <Route path="/documents/agreement/new" element={<AgreementForm />} />
+        <Route path="/documents/ocr" element={<OCRDocuments />} />
+        <Route path="/documents/signature" element={<DigitalSignature />} />
+        <Route path="/documents/:id" element={<DocumentDetail />} />
+        <Route path="/documents" element={<DocumentsList />} />
 
         {/* Fallback */}
-        <Route path="*" element={<Navigate to="dashboard" replace />} />
+        <Route path="*" element={<Navigate to="/dashboard" replace />} />
       </Routes>
-            </Layout>
-          </ProtectedRoute>
-        }
-      />
-    </Routes>
+    </Layout>
   );
 }
 
